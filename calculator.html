@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>SIMPLE CALCULATOR</title>
+	<style>
+	body {
+		padding:0;
+		margin:0;
+		
+	}
+	table{
+		margin-top:15px;
+		}
+	button{
+		font-size:20px;
+		font-family:Franklin Gothic;
+		text-transparent:uppercase;
+		font-size:bold;
+		border-radius:10px;
+		outline:none;
+		inline:none;
+		width:40px;
+		border:none;
+		height:40px;
+	
+	 }
+	 .sun {
+	  width:5em;
+	 }
+	 #zer{
+		font-size:25px;
+		text-align:right;	
+	 }
+	</style>
+	</head>
+	<body>
+	<div class='cal'>
+	<table border  align='center' cellpadding='5'>
+		<tr>
+			<td colspan='4'  id='zer'>0</td>
+			</tr>
+			<tr>
+			<td colspan='3'><button onclick='push()'>AC</button></td>
+			<td ><button onclick='divd()'>/</button></td>
+			</tr>
+			<tr>
+			<td ><button onclick='push()'>7</button></td>
+			<td ><button onclick='push()'>8</button></td>
+			<td ><button onclick='push()'>9</button></td>
+			<td><button onclick='push()'>-</button></td>
+			</tr>
+			<tr>
+			<td><button onclick='push()'>4</button></td>
+			<td><button onclick='push()'>5</button></td>
+			<td><button onclick='push()'>6</button></td>
+			<td><button onclick='push()'>*</button></td>
+			</tr>
+			<tr>
+			<td><button onclick='push()'>1</button></td>
+			<td><button onclick='push()'>2</button></td>
+			<td><button onclick='push()'>3</button></td>
+			<td><button onclick='push()'>+</button></td>
+			</tr>
+			<tr>
+			<td colspan='2' ><button class='sun' onclick='push()'>0</button></td>
+			<td><button onclick='push()'>.</button></td>
+			<td><button onclick='push()'>=</button></td>
+			
+			</td>
+		</tr>
+	</table>
+	</div>
+	
+	</body>
+	
+</html>
+	
